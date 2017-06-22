@@ -26,3 +26,7 @@ eclipse: .settings .classpath .project
 
 .project:
 	ln -s build/eclipse/project .project
+dependencies {
+...
+    compile group: 'org.apache.ant', name: 'ant', version: '1.8.2'
+}
